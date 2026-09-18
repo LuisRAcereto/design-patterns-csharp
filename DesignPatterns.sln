@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "src\Creational
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "src\Creational\Factory\Factory.csproj", "{8B01F39C-0633-4CA3-8E4B-64DC105C4232}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract-Factory", "src\Creational\Abstract-Factory\Abstract-Factory.csproj", "{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,18 @@ Global
 		{8B01F39C-0633-4CA3-8E4B-64DC105C4232}.Release|x64.Build.0 = Release|Any CPU
 		{8B01F39C-0633-4CA3-8E4B-64DC105C4232}.Release|x86.ActiveCfg = Release|Any CPU
 		{8B01F39C-0633-4CA3-8E4B-64DC105C4232}.Release|x86.Build.0 = Release|Any CPU
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}.Debug|x64.Build.0 = Debug|Any CPU
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}.Debug|x86.Build.0 = Debug|Any CPU
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}.Release|x64.ActiveCfg = Release|Any CPU
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}.Release|x64.Build.0 = Release|Any CPU
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}.Release|x86.ActiveCfg = Release|Any CPU
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +67,6 @@ Global
 		{9A059CF2-CB8C-6AD0-B806-FC2A4BC431C3} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{BC027339-EE4A-4A1A-84B1-8816B02A7CCF} = {9A059CF2-CB8C-6AD0-B806-FC2A4BC431C3}
 		{8B01F39C-0633-4CA3-8E4B-64DC105C4232} = {9A059CF2-CB8C-6AD0-B806-FC2A4BC431C3}
+		{6EC1CB6B-7D54-4393-8B36-F637D7E53B6C} = {9A059CF2-CB8C-6AD0-B806-FC2A4BC431C3}
 	EndGlobalSection
 EndGlobal
