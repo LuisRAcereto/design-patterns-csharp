@@ -1,4 +1,11 @@
-﻿// Customer orders a Modern collection.
+﻿/*
+"The abstract factory pattern provides a way to create families of related objects without imposing their concrete classes, 
+by encapsulating a group of individual factories that have a common theme without specifying their concrete classes."
+
+Source: Wikipedia - Abstract factory pattern
+*/
+
+// Customer orders a Modern collection.
 IFurnitureFactory factory = new ModernFurnitureFactory();
 ISofa sofa = factory.CreateSofa();
 IChair chair = factory.CreateChair();
